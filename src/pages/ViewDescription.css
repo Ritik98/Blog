@@ -1,0 +1,42 @@
+.postBody_image {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    margin: 30px 0;
+  }
+  .postBody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .postBody_container {
+    width: 100%;
+    max-width: 700px;
+  }
+
+   .postBody_container img {
+      max-width: 650px;
+      margin: 20px 0;
+    }
+
+    .postBody_container p {
+      color: #7f7f7f;
+      font-size: 20px;
+      margin: 5px 0;
+    }
+
+    .postBody_container h1 {
+      font-size: 50px;
+      color: #2a2a2a;
+    }
+  
+
+  h1,
+  h3,
+  p {
+    font-family: "Open Sans", sans-serif !important;
+  }
+  .wrap {
+    white-space: pre-wrap;
+  }
